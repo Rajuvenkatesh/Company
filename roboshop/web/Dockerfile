@@ -4,4 +4,3 @@ RUN rm -rf /usr/share/nginx/html/index.html \
     && rm -rf /etc/nginx/conf.d/default.conf
 COPY roboshop.conf /etc/nginx/nginx.conf
 ADD web /usr/share/nginx/html/
-
